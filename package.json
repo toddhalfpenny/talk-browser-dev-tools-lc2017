@@ -1,8 +1,7 @@
 {
-  "name": "reveal.js",
+  "name": "lc2017-browser-dev-tools-reveal",
   "version": "3.4.1",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://lab.hakim.se/reveal-js",
+  "description": "London's Calling Pres on Browser Dev Tools",
   "subdomain": "revealjs",
   "main": "js/reveal.js",
   "scripts": {
@@ -10,13 +9,13 @@
     "start": "grunt serve"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Todd Halfpenny",
+    "email": "todd@mobilecaddy.net",
+    "web": "http://developer.mobilecaddy.net"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/toddhalfpenny/lc2017-browser-dev-tools-reveal.git"
   },
   "engines": {
     "node": ">=4.0.0"
