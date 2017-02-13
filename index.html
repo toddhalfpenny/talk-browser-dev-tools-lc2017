@@ -67,7 +67,6 @@
 				</section>
 
 				<section>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/n0ODy6YKc78" frameborder="0" allowfullscreen class="youtubeReplacement"></iframe>
 					<video class="stretch" controls id="todd">
 				    <source data-src="lib/vid/todd.mp4" type='video/mp4' />
 				  </video>
@@ -273,11 +272,9 @@
 			});
 
 			Reveal.addEventListener( 'slidechanged', function( event ) {
-				console.log(event.indexh);
 		    var video;
 		    switch (event.indexh) {
 		    	case 15:
-		    		console.log("lets play");
 		    		vid = document.getElementById('todd');
 		    		vid.load();
 		    		vid.play();
